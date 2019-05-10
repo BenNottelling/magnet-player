@@ -21,7 +21,9 @@ var announceList = [
 ['wss://tracker.webtorrent.io'],
 ['wss://tracker.btorrent.xyz'],
 ['wss://tracker.openwebtorrent.com'],
-['wss://tracker.fastcast.nz']
+['wss://tracker.fastcast.nz'],
+['http://tracker.zamunda.net/announce.php?passkey=95b29926c5b7adab4a133cfc490ed0aa'],
+['http://tracker.zamunda.net/announce.php?passkey=92149dad63bdd68fedffcd44d27209dc']
 ]
 
 global.WEBTORRENT_ANNOUNCE = announceList
@@ -78,7 +80,7 @@ function onTorrent(torrent) {
 	$streamedFileName.html(largestFile.name)
 
 	// Update clipboard share url
-	$('#share-url').val('https://ferrolho.github.io/magnet-player/#' + torrent.infoHash);
+	$('#share-url').val('https://byjohnie.github.io/magnet-player/#' + torrent.infoHash);
 
 	// Stream the file in the browser
 	largestFile.appendTo('#output')
