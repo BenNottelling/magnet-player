@@ -23,7 +23,9 @@ var announceList = [
 ['wss://tracker.openwebtorrent.com'],
 ['wss://tracker.fastcast.nz'],
 ['wss://tracker.zamunda.net/announce.php?passkey=95b29926c5b7adab4a133cfc490ed0aa'],
-['wss://tracker.zamunda.net/announce.php?passkey=92149dad63bdd68fedffcd44d27209dc']
+['wss://tracker.zamunda.net/announce.php?passkey=92149dad63bdd68fedffcd44d27209dc'],
+['udp://p4p.arenabg.ch:1337'],
+['udp://p4p.arenabg.com:1337']
 ]
 
 global.WEBTORRENT_ANNOUNCE = announceList
